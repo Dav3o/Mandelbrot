@@ -28,7 +28,7 @@ const int h = 2200;
 
     draw_Mandelbrot(image, w, h, -1.9, 0.6, -1.1, 1.1, 1024);
 
-    ofstream out("Mandelbrot2.pgm",ios::binary);
+    ofstream out("Mandelbrot2.ppm",ios::binary);
     out << image;
     return 0;
 }
