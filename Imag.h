@@ -26,7 +26,7 @@ class proxy {
         T &operator[](size_t index) {return m.data[index * m.Zeilen + index_1]; }
     };
 
-    class const_proxy {
+ class const_proxy {
         Matrix const &m;
         size_t index_1;
     public:
