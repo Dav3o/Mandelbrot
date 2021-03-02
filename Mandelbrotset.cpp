@@ -1,6 +1,5 @@
-#pragma once
-#include </home/david/Schreibtisch/C++ /Exercise/Image/Imag.h>
-#include </home/david/Schreibtisch/C++ /Exercise/Complex_lib/Complex_numbers.h>
+#include "Imag.cpp"
+#include "Complex_numbers.cpp"
 
 template <class T>
 void draw_Mandelbrot(T & image, const int& w, const int& h,const double xmin,const double xmax,const double ymin,const double ymax,const int n_max) {
@@ -29,6 +28,7 @@ void draw_Mandelbrot(T & image, const int& w, const int& h,const double xmin,con
 
         }
 }
+
 int main(){
 const int w = 2000;
 const int h = 2000;
